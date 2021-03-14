@@ -19,8 +19,8 @@ public class providerController {
     private int port;
 
     @RequestMapping(value = "/provider/sayhello")
-    public String providerSayHello(String message){
-        log.info("provider sayhello port:{}，message:{}",port,message);
+    public String providerSayHello(String message) {
+        log.info("provider sayhello port:{}，message:{}", port, message);
         return "Provvider sayhello port：" + port + ",message：" + message;
     }
 }
