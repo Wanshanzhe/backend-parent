@@ -10,6 +10,7 @@
     <groupId>com.mooc.meetingfilm</groupId>
     <artifactId>backend-utils</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
     <name>backend-utils</name>
     <description>猫眼后台项目公共工具模块</description>
     <properties>
